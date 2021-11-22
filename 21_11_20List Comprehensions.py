@@ -40,3 +40,13 @@ print(l)
 >>> list
 [2,4,6,8,10]
 '''
+
+# 但是 不能再最后的if加上else
+'''
+>>> [x for x in range(1, 11) if x % 2 == 0 else 0]
+  File "<stdin>", line 1
+    [x for x in range(1, 11) if x % 2 == 0 else 0]
+                                               ^
+SyntaxError: invalid syntax
+'''
+
